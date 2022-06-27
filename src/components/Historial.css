@@ -1,0 +1,50 @@
+
+.vHistorial {
+    position:absolute;
+    background-color: #1f1f1f;
+    color: white;
+    height: 45%;
+    width: 400px;
+    bottom: 4%;
+    transition: all 0.4s;
+    transform: translateX(191%);
+    margin : 0;
+    padding: 0;
+    overflow:auto;
+}
+
+.vHistorial--open {
+    transform: translateX(-91%);
+}
+
+
+.expr {
+    font-size: 1.4rem;
+}
+
+.display {
+    background-color: #1f1f1f;
+    display: flex;
+    flex-flow: column;
+    height: 80px;
+}
+
+.NumerosGrandes {
+    background-color: #1f1f1f;
+    border-color: #1f1f1f;
+    color: white;
+    height: 50px;
+    text-align: right;
+}
+
+.basurero{
+    text-align: right;
+    transform: translateY(655%);
+    cursor: pointer;
+    width: -5px;
+
+}
+
+.basurero:hover {
+    background-color:  #4a4a4a;
+}

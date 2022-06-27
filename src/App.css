@@ -1,0 +1,83 @@
+.App {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #413f42;
+    font-family: "Share Tech Mono", "Segoe UI", Tahoma, Geneva, Verdana;
+    overflow: hidden;
+}
+
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 650px;
+    background-color: #2b2b2b;
+    box-shadow: 0 0 24px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fila {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24,24,24);
+    color:#fff;
+    font-weight: bold;
+    border: 0.5px solid #333;
+    font-size: 1.4rem;
+}
+
+.filaMemoria {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border: 0.5px;
+    background-color: rgb(24,24,24);
+}
+
+.encabezado {
+    background-color: #1f1f1f;
+    color:white;
+    width: 100%;
+    display: flex;
+    font-weight: 700;
+    padding: 10px 5px;
+    font-size: 1.4rem;
+    height: 10%;
+}
+
+#estandar {
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.iconAbout{
+    float:left;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.iconAbout:hover{
+    background-color:  #4a4a4a;
+}
+
+
+.iconTop{
+    padding-top: 5px;
+}
+
+
+.iconHistorial {
+    float:right;
+    padding-top: 5px;
+    padding-left: 52%;
+    cursor: pointer;
+    width: auto;
+}

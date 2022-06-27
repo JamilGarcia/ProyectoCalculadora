@@ -1,0 +1,7 @@
+{
+  "name": "ionic-react-calc-proyecto-miguel-jamil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
